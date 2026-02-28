@@ -13,5 +13,5 @@ Analysis of the Titanic passenger dataset to explore data, prepare features, and
 ## 2. Household Income Regression ##
 The dataset contains demographic and financial information about households. Each row corresponds to a single person, while the columns describe their socioeconomic characteristics and expenditures.
 - Handle missing values, encode categorical variables, and detect outliers in Income.
-- Build and evaluate linear regression models with and without outlier handling (RMSE, R²).
+- Build and evaluate linear regression models with and without outlier handling (RMSE, R^2).
 - Compare models and summarize the impact of outliers on income predictions.
