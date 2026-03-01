@@ -15,3 +15,11 @@ The dataset contains demographic and financial information about households. Eac
 - Handle missing values, encode categorical variables, and detect outliers in Income.
 - Build and evaluate linear regression models with and without outlier handling (RMSE, R^2).
 - Compare models and summarize the impact of outliers on income predictions.
+
+## 3. Water Potability Classification ##
+The water potability.csv dataset addresses drinking water quality. Each row represents a water sample, and the goal is to determine whether the water is suitable for drinking or not.
+- Identification of missing data.
+- Basic Data Mining: histograms of selected features, box plots to detect outliers, correlation matrix and heatmap.
+- Data preparation for modeling: missing data were supplemented with the median, standardization was performed and data were divided.
+- Two models were compared: Logistic Regression and Decision Tree.
+- Random Forest was also used, testing three variants: before SMOTE,after SMOTE, after SMOTE + hyperparameter tuning.
